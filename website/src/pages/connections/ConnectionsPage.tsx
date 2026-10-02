@@ -100,7 +100,7 @@ const PROVIDER_TONES: Record<string, string> = {
   notion: 'bg-text-strong text-bg',
   github: 'bg-[#24292f] text-white',
   linear: 'bg-[#5e6ad2] text-white',
-  atlassian: 'bg-[#1868db] text-white',
+  trello: 'bg-[#0079bf] text-white',
   stripe: 'bg-[#635bff] text-white',
   vercel: 'bg-text-strong text-bg',
 }
@@ -475,7 +475,7 @@ const VALUE_PROP_KEYS = {
   notion: 'pages.connectionsPage.value_prop_notion',
   github: 'pages.connectionsPage.value_prop_github',
   linear: 'pages.connectionsPage.value_prop_linear',
-  atlassian: 'pages.connectionsPage.value_prop_atlassian',
+  trello: 'pages.connectionsPage.value_prop_trello',
   stripe: 'pages.connectionsPage.value_prop_stripe',
   vercel: 'pages.connectionsPage.value_prop_vercel',
   gitlab: 'pages.connectionsPage.value_prop_gitlab',
@@ -486,7 +486,6 @@ const VALUE_PROP_KEYS = {
  *  English fallback); the catalogs carry what non-English users read. */
 const PREREQUISITE_KEYS = {
   gitlab: 'pages.connectionsPage.prerequisite_gitlab',
-  atlassian: 'pages.connectionsPage.prerequisite_atlassian',
   github: 'pages.connectionsPage.prerequisite_github',
   asana: 'pages.connectionsPage.prerequisite_asana',
 } as const

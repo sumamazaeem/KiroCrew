@@ -23,7 +23,7 @@ from kiro_crew.connections.registry import (
 )
 
 EXPECTED_LAUNCH_REGISTRY = {
-    "atlassian",
+    "trello",
     "github",
     "gitlab",
     "linear",

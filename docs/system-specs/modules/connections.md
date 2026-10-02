@@ -913,7 +913,7 @@ mounts or gates on it.
 |---|---|---|---|---|---|---|
 | Notion | collaboration-docs | 1 | yes / yes | none (one combined grant) | shown | — |
 | Linear | project-management | 1 | yes / yes | dedicated `/mcp/readonly` endpoint | shown | — |
-| Atlassian (Jira, Confluence) | project-management | 1 | yes / yes | trim on the consent page | shown | — |
+| Trello | project-management | 1 | yes / yes | trim on the consent page | shown | — |
 | Stripe | payments-finance | 1 | yes / yes | tool-level | shown | — |
 | Vercel | developer-tools | 1 | yes / yes | none | shown | — |
 | GitLab | developer-tools | 1 | yes / yes | none (single `mcp` scope) | shown | — |
@@ -996,7 +996,7 @@ kinds of content, and a new state or a new piece of copy lands in one of them:
 | Content | Where it renders | Examples |
 |---|---|---|
 | The state, in a word | the header badge (icon + label) | Not connected, Needs configuration, Connected |
-| A **pre-action caveat** — what the user should know before pressing the row's action, or what pressing it entails | the amber warning triangle (`PrerequisiteTip`) placed immediately before that action, in the same row: hover or focus previews the copy, click pins it, Escape or an outside press dismisses it | GitLab's Duo/group requirement and Atlassian's site requirement beside **Connect**; the one-time OAuth-app setup explanation beside **Configure OAuth app** |
+| A **pre-action caveat** — what the user should know before pressing the row's action, or what pressing it entails | the amber warning triangle (`PrerequisiteTip`) placed immediately before that action, in the same row: hover or focus previews the copy, click pins it, Escape or an outside press dismisses it | GitLab's Duo/group requirement beside **Connect**; the one-time OAuth-app setup explanation beside **Configure OAuth app** |
 | A **verdict the user must act on**, or a form the state needs | an inline band, the only thing allowed to add a row | the not-verified / not-authorized verdict, the needs-attention diagnosis, the return-address relay while waiting for approval |
 
 The line between the last two is what the copy is *about*. A verdict reports a

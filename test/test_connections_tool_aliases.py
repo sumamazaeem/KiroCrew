@@ -104,7 +104,7 @@ def test_every_declared_alias_equals_its_derivation():
 
 
 def test_providers_without_collisions_declare_nothing():
-    assert not {"notion", "stripe", "atlassian"} & set(declared_tool_aliases())
+    assert not {"notion", "stripe", "trello"} & set(declared_tool_aliases())
 
 
 # ── table rows 1-3: whole-server exposure, identity matched ──

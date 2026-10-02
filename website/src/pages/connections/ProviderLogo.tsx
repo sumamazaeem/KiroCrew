@@ -2,7 +2,7 @@ import { BrandGlyph } from '../../components/BrandIcon'
 import notionLogoUrl from './logos/notion.svg'
 import githubLogoUrl from './logos/github.svg'
 import linearLogoUrl from './logos/linear.svg'
-import atlassianLogoUrl from './logos/atlassian.svg'
+import trelloLogoUrl from './logos/trello.svg'
 import stripeLogoUrl from './logos/stripe.svg'
 import vercelLogoUrl from './logos/vercel.svg'
 import gitlabLogoUrl from './logos/gitlab.svg'
@@ -80,7 +80,7 @@ const MASKED: Record<string, string> = {
 /** Full-colour marks — plain `<img>`, colours preserved. */
 const COLOURED: Record<string, string> = {
   linear: linearLogoUrl,
-  atlassian: atlassianLogoUrl,
+  trello: trelloLogoUrl,
   stripe: stripeLogoUrl,
   gitlab: gitlabLogoUrl,
 }
