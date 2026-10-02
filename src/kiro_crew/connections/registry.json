@@ -111,7 +111,15 @@
     "slug": "trello",
     "tier": 1,
     "mcp_url": "https://mcp.trello.com/v1",
-    "recommended_scopes": [],
+    "recommended_scopes": [
+      "read:me",
+      "read:account",
+      "read:board:trello",
+      "write:board:trello",
+      "read:organization:trello",
+      "write:organization:trello",
+      "offline_access"
+    ],
     "revoke_page_url": "https://id.atlassian.com/manage-profile/apps",
     "docs_url": "https://support.atlassian.com/trello/docs/connect-trello-to-ai-assistants-with-trello-mcp/",
     "gotcha_copy": "Covers Trello workspaces, boards, lists, and cards. Destructive permanent deletions are not supported; cards and lists can be archived.",
